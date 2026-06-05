@@ -3,30 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My New Website</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f4f4f9;
-        }
-        .container {
-            text-align: center;
-            padding: 2rem;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-    </style>
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <div class="container">
-        <h1>Welcome to My Website!</h1>
-        <p>This page is successfully hosted on GitHub Pages with a custom domain.</p>
+        <header>
+            <h1>Your Name</h1>
+            <p class="subtitle">Software Developer</p>
+            <p class="bio">
+                Welcome to my portfolio! I am a passionate developer focused on building clean, efficient, and reliable software solutions. I enjoy solving complex problems and continuously learning new technologies.
+            </p>
+        </header>
+
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h3>Project One</h3>
+                    <p>A brief description of what this project does, the technical challenge it solved, and the value it provides.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">View on GitHub &rarr;</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>Project Two</h3>
+                    <p>Another project description highlighting your technical implementation, tools used, or monetization strategies.</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">View Live Demo &rarr;</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Core Skills</h2>
+            <div class="skills-container">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">Linux / Ubuntu</span>
+                <span class="skill-tag">Git / GitHub</span>
+                <span class="skill-tag">HTML & CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">SQL</span>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+            </div>
+        </section>
     </div>
+
 </body>
 </html>
