@@ -1,40 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Developer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
     <div class="container">
         <header>
-            <h1>Your Name</h1>
+            <img src="images/sv_picture.jpg" alt="Sergey Vardanyan" class="profile-picture">
+            <h1>Sergey Vardanyan</h1>
             <p class="subtitle">Software Developer</p>
             <p class="bio">
-                Welcome to my portfolio! I am a passionate developer focused on building clean, efficient, and reliable software solutions. I enjoy solving complex problems and continuously learning new technologies.
+                Welcome to my portfolio! I am a passionate developer focused on building clean, efficient, and reliable
+                software solutions. I enjoy solving complex problems and continuously learning new technologies.
             </p>
+
+            <p class="bio">...</p>
+            <div style="margin-top: 1.5rem;">
+                <a href="certs.html" style="color: var(--accent); text-decoration: none; font-weight: 500;">View My
+                    Certifications &rarr;</a>
+            </div>
+
+
+
         </header>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com">Email</a>
+                <a href="https://github.com/sevard" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/sergey-vardanyan-724811229" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+
 
         <section id="projects">
             <h2>Featured Projects</h2>
             <div class="projects-grid">
-                
+
                 <div class="project-card">
-                    <h3>Project One</h3>
-                    <p>A brief description of what this project does, the technical challenge it solved, and the value it provides.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">View on GitHub &rarr;</a>
-                    </div>
+                    <h3>Fraud Detection Engine</h3>
+                    <p>
+                        Engineered and deployed an end-to-end fraud detection engine that ingests
+                        real-time data from multiple external systems, applying complex analytical
+                        logic to automatically generate and prioritize investigative cases, leading
+                        to the prevention of financial losses by proactively identifying
+                        and stopping fraudulent activities.
+                    </p>
+                    <!-- <div class="project-links"> -->
+                    <!-- <a href="#" target="_blank">View on GitHub &rarr;</a> -->
+                    <!-- </div> -->
                 </div>
 
                 <div class="project-card">
-                    <h3>Project Two</h3>
-                    <p>Another project description highlighting your technical implementation, tools used, or monetization strategies.</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">View Live Demo &rarr;</a>
-                    </div>
+                    <h3>Robocall Protection</h3>
+                    <p>Integrated Robocall Customer Protection system into the fraud prevention engine
+                        to enhance security and user trust.</p>
+                    <!-- <div class="project-links"> -->
+                    <!-- <a href="#" target="_blank">View Live Demo &rarr;</a> -->
+                    <!-- </div> -->
+                </div>
+                <div class="project-card">
+                    <h3>System Optimization</h3>
+                    <p>Engineered high-performance backend microservices using FastAPI,
+                        achieving a 70% reduction in API latency through strategic query optimization and
+                        multi-level caching.</p>
+                    <!-- <div class="project-links"> -->
+                    <!-- <a href="#" target="_blank">View Live Demo &rarr;</a> -->
+                    <!-- </div> -->
+                </div>
+                <div class="project-card">
+                    <h3>Cloud Infrastructure</h3>
+                    <p>Migrated on-premises Solaris Linux pipelines to a fully
+                        containerized Azure Cloud environment, enhancing scalability and lowering operational
+                        overhead.</p>
                 </div>
 
             </div>
@@ -43,24 +88,19 @@
         <section id="skills">
             <h2>Core Skills</h2>
             <div class="skills-container">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">Linux / Ubuntu</span>
+                <span class="skill-tag">Microsft Azure</span>
+                <span class="skill-tag">Python / Django / Flask</span>
+                <span class="skill-tag">SQL / MongoDB / PostgreSQL</span>
+                <span class="skill-tag">Linux / Shell Script</span>
                 <span class="skill-tag">Git / GitHub</span>
                 <span class="skill-tag">HTML & CSS</span>
-                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">JavaScript / TypeScript / React</span>
                 <span class="skill-tag">SQL</span>
             </div>
         </section>
 
-        <section id="contact">
-            <h2>Get In Touch</h2>
-            <div class="contact-links">
-                <a href="mailto:your.email@example.com">Email</a>
-                <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-                <a href="#" target="_blank">LinkedIn</a>
-            </div>
-        </section>
     </div>
 
 </body>
+
 </html>
